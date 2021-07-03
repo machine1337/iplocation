@@ -1,6 +1,8 @@
 # iplocation
 
 ![ip](https://user-images.githubusercontent.com/82051128/124340673-6048db00-dbd0-11eb-9dd2-1a96db17eeb1.png)
+![tar](https://user-images.githubusercontent.com/82051128/124358545-3d531100-dc3a-11eb-9665-60ec6afe7263.png)
+
 
 # Installation:
        For Linux Users:
