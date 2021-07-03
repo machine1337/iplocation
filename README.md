@@ -1,5 +1,5 @@
-# iplocation
-
+# iplocation:
+ 
 ![ip](https://user-images.githubusercontent.com/82051128/124340673-6048db00-dbd0-11eb-9dd2-1a96db17eeb1.png)
 ![tar](https://user-images.githubusercontent.com/82051128/124358545-3d531100-dc3a-11eb-9665-60ec6afe7263.png)
 
@@ -22,5 +22,5 @@
        c) jq
 
 # Author:
-      [Facebook] (https://facebook.com/unknownclay)
-      [Twitter]  (https://twitter.com/unknownclay)
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/whoami4041?style=social"> <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCC_aPnmV_zGfdwktCFE9cPQ?style=social"> 
+  
