@@ -66,23 +66,23 @@ read ip
 dest="http://ip-api.com/json/"
 echo -e -n ${RED}"\n[ ✔ ] [VICTIM IP]: $ip \n"
 
-temp=$(curl -s $dest$api | jq  -r '.country')
+temp=$(curl -s $dest$ip | jq  -r '.country')
 echo -e -n ${NEW}"\n[ ✔ ] [COUNTRY]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.regionName')
+temp=$(curl -s $dest$ip | jq  -r '.regionName')
 echo -e -n ${ORANGE}"\n[ ✔ ] [REGION-NAME]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.city')
+temp=$(curl -s $dest$ip | jq  -r '.city')
 echo -e -n ${PINK}"\n[ ✔ ] [CITY]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.lat')
+temp=$(curl -s $dest$ip | jq  -r '.lat')
 echo -e -n ${YELLOW}"\n[ ✔ ] [LATITUTE]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.lon')
+temp=$(curl -s $dest$ip | jq  -r '.lon')
 echo -e -n  ${BLUE}"\n[ ✔ ] [LONGITUTDE]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.isp')
+temp=$(curl -s $dest$ip | jq  -r '.isp')
 echo -e -n ${CG}"\n[ ✔ ] [ISP]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.as')
+temp=$(curl -s $dest$ip | jq  -r '.as')
 echo -e -n ${CN}"\n[ ✔ ] [AS]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.timezone')
+temp=$(curl -s $dest$ip | jq  -r '.timezone')
 echo -e -n ${CP}"\n[ ✔ ] [TIMEZONE]:  $temp \n"
-temp=$(curl -s $dest$api | jq  -r '.zip')
+temp=$(curl -s $dest$ip | jq  -r '.zip')
 echo -e -n ${YELLOW}"\n[ ✔ ] [ZIPCODE]:  $temp \n"
 sleep 1
 echo -e -n ${RED}"\n<--------Thanks For Using IP-Location Script--------->\n"
