@@ -22,5 +22,7 @@
        c) jq
 
 # Author:
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/whoami4041?style=social"> <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCC_aPnmV_zGfdwktCFE9cPQ?style=social"> 
+  1. https://www.facebook.com/pakhack01 
+  2. https://instagram.com/invisibleclay100 
+  3. https://www.youtube.com/channel/UCC_aPnmV_zGfdwktCFE9cPQ 
   
